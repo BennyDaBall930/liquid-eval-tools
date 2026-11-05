@@ -1,0 +1,3693 @@
+[
+{
+"category": "tool",
+"key": "hermes-fc:579",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 579,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 650,
+"score": [
+1411,
+1778
+],
+"gen_ranges": [
+[
+650,
+1077
+],
+[
+1411,
+1778
+]
+],
+"n_tokens": 1778
+},
+{
+"category": "tool",
+"key": "toolace:1312",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 1312,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 371,
+"score": [
+371,
+398
+],
+"gen_ranges": [
+[
+371,
+398
+]
+],
+"n_tokens": 398
+},
+{
+"category": "tool",
+"key": "hermes-fc:677",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 677,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 778,
+"score": [
+924,
+951
+],
+"gen_ranges": [
+[
+778,
+831
+],
+[
+924,
+951
+]
+],
+"n_tokens": 951
+},
+{
+"category": "tool",
+"key": "toolace:4189",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 4189,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 101,
+"score": [
+101,
+550
+],
+"gen_ranges": [
+[
+101,
+550
+]
+],
+"n_tokens": 550
+},
+{
+"category": "tool",
+"key": "hermes-fc:887",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 887,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 221,
+"score": [
+365,
+411
+],
+"gen_ranges": [
+[
+221,
+329
+],
+[
+365,
+411
+]
+],
+"n_tokens": 411
+},
+{
+"category": "tool",
+"key": "toolace:3473",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 3473,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 245,
+"score": [
+245,
+867
+],
+"gen_ranges": [
+[
+245,
+867
+]
+],
+"n_tokens": 867
+},
+{
+"category": "tool",
+"key": "hermes-fc:163",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 163,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 507,
+"score": [
+788,
+915
+],
+"gen_ranges": [
+[
+507,
+732
+],
+[
+788,
+915
+]
+],
+"n_tokens": 915
+},
+{
+"category": "tool",
+"key": "toolace:6410",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 6410,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 479,
+"score": [
+479,
+721
+],
+"gen_ranges": [
+[
+479,
+721
+]
+],
+"n_tokens": 721
+},
+{
+"category": "tool",
+"key": "toolace:10516",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 10516,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 613,
+"score": [
+613,
+656
+],
+"gen_ranges": [
+[
+613,
+656
+]
+],
+"n_tokens": 656
+},
+{
+"category": "tool",
+"key": "hermes-fc:480",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 480,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 686,
+"score": [
+686,
+1710
+],
+"gen_ranges": [
+[
+686,
+1710
+]
+],
+"n_tokens": 1710
+},
+{
+"category": "tool",
+"key": "toolace:5402",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 5402,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 177,
+"score": [
+177,
+337
+],
+"gen_ranges": [
+[
+177,
+337
+]
+],
+"n_tokens": 337
+},
+{
+"category": "tool",
+"key": "hermes-fc:241",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 241,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 452,
+"score": [
+895,
+1113
+],
+"gen_ranges": [
+[
+452,
+583
+],
+[
+895,
+1113
+]
+],
+"n_tokens": 1113
+},
+{
+"category": "tool",
+"key": "toolace:5886",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 5886,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 177,
+"score": [
+177,
+381
+],
+"gen_ranges": [
+[
+177,
+381
+]
+],
+"n_tokens": 381
+},
+{
+"category": "tool",
+"key": "toolace:10705",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 10705,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 474,
+"score": [
+474,
+1060
+],
+"gen_ranges": [
+[
+474,
+1060
+]
+],
+"n_tokens": 1060
+},
+{
+"category": "tool",
+"key": "toolace:7045",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 7045,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 495,
+"score": [
+495,
+736
+],
+"gen_ranges": [
+[
+495,
+736
+]
+],
+"n_tokens": 736
+},
+{
+"category": "tool",
+"key": "hermes-fc:724",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 724,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 560,
+"score": [
+835,
+942
+],
+"gen_ranges": [
+[
+560,
+646
+],
+[
+835,
+942
+]
+],
+"n_tokens": 942
+},
+{
+"category": "tool",
+"key": "toolace:10334",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 10334,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 885,
+"score": [
+885,
+1876
+],
+"gen_ranges": [
+[
+885,
+1876
+]
+],
+"n_tokens": 1876
+},
+{
+"category": "tool",
+"key": "hermes-fc:884",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 884,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 565,
+"score": [
+912,
+1295
+],
+"gen_ranges": [
+[
+565,
+747
+],
+[
+912,
+1295
+]
+],
+"n_tokens": 1295
+},
+{
+"category": "tool",
+"key": "hermes-fc:712",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 712,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 608,
+"score": [
+871,
+1035
+],
+"gen_ranges": [
+[
+608,
+748
+],
+[
+871,
+1035
+]
+],
+"n_tokens": 1035
+},
+{
+"category": "tool",
+"key": "hermes-fc:802",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 802,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": true,
+"truncated": true,
+"n_prompt": 667,
+"score": [
+1675,
+2048
+],
+"gen_ranges": [
+[
+667,
+1220
+],
+[
+1675,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "tool",
+"key": "toolace:9940",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 9940,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 410,
+"score": [
+410,
+1261
+],
+"gen_ranges": [
+[
+410,
+1261
+]
+],
+"n_tokens": 1261
+},
+{
+"category": "tool",
+"key": "toolace:3164",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 3164,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 237,
+"score": [
+237,
+1261
+],
+"gen_ranges": [
+[
+237,
+1261
+]
+],
+"n_tokens": 1261
+},
+{
+"category": "tool",
+"key": "toolace:5026",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 5026,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 978,
+"score": [
+978,
+1234
+],
+"gen_ranges": [
+[
+978,
+1234
+]
+],
+"n_tokens": 1234
+},
+{
+"category": "tool",
+"key": "toolace:767",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 767,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 376,
+"score": [
+904,
+989
+],
+"gen_ranges": [
+[
+376,
+878
+],
+[
+904,
+989
+]
+],
+"n_tokens": 989
+},
+{
+"category": "tool",
+"key": "toolace:8596",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 8596,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 784,
+"score": [
+784,
+852
+],
+"gen_ranges": [
+[
+784,
+852
+]
+],
+"n_tokens": 852
+},
+{
+"category": "tool",
+"key": "hermes-fc:344",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 344,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": true,
+"n_prompt": 676,
+"score": [
+1582,
+2048
+],
+"gen_ranges": [
+[
+676,
+1050
+],
+[
+1582,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "tool",
+"key": "hermes-fc:942",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 942,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 529,
+"score": [
+832,
+1052
+],
+"gen_ranges": [
+[
+529,
+603
+],
+[
+832,
+1052
+]
+],
+"n_tokens": 1052
+},
+{
+"category": "tool",
+"key": "toolace:7794",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 7794,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 389,
+"score": [
+389,
+486
+],
+"gen_ranges": [
+[
+389,
+486
+]
+],
+"n_tokens": 486
+},
+{
+"category": "tool",
+"key": "toolace:6946",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 6946,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 802,
+"score": [
+802,
+1066
+],
+"gen_ranges": [
+[
+802,
+1066
+]
+],
+"n_tokens": 1066
+},
+{
+"category": "tool",
+"key": "hermes-fc:744",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 744,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 379,
+"score": [
+967,
+1324
+],
+"gen_ranges": [
+[
+379,
+741
+],
+[
+967,
+1324
+]
+],
+"n_tokens": 1324
+},
+{
+"category": "tool",
+"key": "hermes-fc:882",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 882,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 569,
+"score": [
+1215,
+1512
+],
+"gen_ranges": [
+[
+569,
+1073
+],
+[
+1215,
+1512
+]
+],
+"n_tokens": 1512
+},
+{
+"category": "tool",
+"key": "toolace:4087",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 4087,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 212,
+"score": [
+212,
+782
+],
+"gen_ranges": [
+[
+212,
+782
+]
+],
+"n_tokens": 782
+},
+{
+"category": "tool",
+"key": "toolace:9571",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 9571,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 530,
+"score": [
+530,
+1419
+],
+"gen_ranges": [
+[
+530,
+1419
+]
+],
+"n_tokens": 1419
+},
+{
+"category": "tool",
+"key": "hermes-fc:413",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 413,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 319,
+"score": [
+790,
+1225
+],
+"gen_ranges": [
+[
+319,
+654
+],
+[
+790,
+1225
+]
+],
+"n_tokens": 1225
+},
+{
+"category": "tool",
+"key": "toolace:61",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 61,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 324,
+"score": [
+482,
+603
+],
+"gen_ranges": [
+[
+324,
+352
+],
+[
+482,
+603
+]
+],
+"n_tokens": 603
+},
+{
+"category": "tool",
+"key": "toolace:2110",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 2110,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 302,
+"score": [
+302,
+455
+],
+"gen_ranges": [
+[
+302,
+455
+]
+],
+"n_tokens": 455
+},
+{
+"category": "tool",
+"key": "toolace:7172",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 7172,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 492,
+"score": [
+492,
+555
+],
+"gen_ranges": [
+[
+492,
+555
+]
+],
+"n_tokens": 555
+},
+{
+"category": "tool",
+"key": "hermes-fc:578",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 578,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": true,
+"truncated": true,
+"n_prompt": 610,
+"score": [
+992,
+2016
+],
+"gen_ranges": [
+[
+610,
+739
+],
+[
+992,
+2016
+]
+],
+"n_tokens": 2016
+},
+{
+"category": "tool",
+"key": "toolace:2483",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 2483,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 358,
+"score": [
+358,
+569
+],
+"gen_ranges": [
+[
+358,
+569
+]
+],
+"n_tokens": 569
+},
+{
+"category": "tool",
+"key": "toolace:10174",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 10174,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 130,
+"score": [
+130,
+214
+],
+"gen_ranges": [
+[
+130,
+214
+]
+],
+"n_tokens": 214
+},
+{
+"category": "tool",
+"key": "toolace:7537",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 7537,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 201,
+"score": [
+201,
+391
+],
+"gen_ranges": [
+[
+201,
+391
+]
+],
+"n_tokens": 391
+},
+{
+"category": "tool",
+"key": "toolace:1582",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 1582,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 130,
+"score": [
+130,
+215
+],
+"gen_ranges": [
+[
+130,
+215
+]
+],
+"n_tokens": 215
+},
+{
+"category": "tool",
+"key": "hermes-fc:270",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 270,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 921,
+"score": [
+921,
+1526
+],
+"gen_ranges": [
+[
+921,
+1526
+]
+],
+"n_tokens": 1526
+},
+{
+"category": "tool",
+"key": "hermes-fc:331",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 331,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 859,
+"score": [
+859,
+1059
+],
+"gen_ranges": [
+[
+859,
+1059
+]
+],
+"n_tokens": 1059
+},
+{
+"category": "tool",
+"key": "toolace:5315",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 5315,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 101,
+"score": [
+101,
+1125
+],
+"gen_ranges": [
+[
+101,
+1125
+]
+],
+"n_tokens": 1125
+},
+{
+"category": "tool",
+"key": "toolace:6047",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 6047,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 187,
+"score": [
+187,
+224
+],
+"gen_ranges": [
+[
+187,
+224
+]
+],
+"n_tokens": 224
+},
+{
+"category": "tool",
+"key": "toolace:8956",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 8956,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 551,
+"score": [
+551,
+631
+],
+"gen_ranges": [
+[
+551,
+631
+]
+],
+"n_tokens": 631
+},
+{
+"category": "tool",
+"key": "toolace:2545",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 2545,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 290,
+"score": [
+290,
+397
+],
+"gen_ranges": [
+[
+290,
+397
+]
+],
+"n_tokens": 397
+},
+{
+"category": "tool",
+"key": "hermes-fc:153",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 153,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 632,
+"score": [
+830,
+936
+],
+"gen_ranges": [
+[
+632,
+704
+],
+[
+830,
+936
+]
+],
+"n_tokens": 936
+},
+{
+"category": "tool",
+"key": "hermes-fc:478",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 478,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": true,
+"n_prompt": 667,
+"score": [
+1744,
+2048
+],
+"gen_ranges": [
+[
+667,
+1469
+],
+[
+1744,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "tool",
+"key": "hermes-fc:631",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 631,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 866,
+"score": [
+866,
+1890
+],
+"gen_ranges": [
+[
+866,
+1890
+]
+],
+"n_tokens": 1890
+},
+{
+"category": "tool",
+"key": "hermes-fc:135",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 135,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": true,
+"n_prompt": 750,
+"score": [
+1670,
+2048
+],
+"gen_ranges": [
+[
+750,
+1358
+],
+[
+1670,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "tool",
+"key": "toolace:6332",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 6332,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 367,
+"score": [
+367,
+1391
+],
+"gen_ranges": [
+[
+367,
+1391
+]
+],
+"n_tokens": 1391
+},
+{
+"category": "tool",
+"key": "toolace:2165",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 2165,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 307,
+"score": [
+307,
+813
+],
+"gen_ranges": [
+[
+307,
+813
+]
+],
+"n_tokens": 813
+},
+{
+"category": "tool",
+"key": "hermes-fc:939",
+"src": "hermes-fc",
+"repo": "NousResearch/hermes-function-calling-v1",
+"rev": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+"file": "func-calling.json",
+"row": 939,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": true,
+"truncated": false,
+"n_prompt": 788,
+"score": [
+1748,
+1902
+],
+"gen_ranges": [
+[
+788,
+1522
+],
+[
+1748,
+1902
+]
+],
+"n_tokens": 1902
+},
+{
+"category": "tool",
+"key": "toolace:10305",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 10305,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 569,
+"score": [
+569,
+767
+],
+"gen_ranges": [
+[
+569,
+767
+]
+],
+"n_tokens": 767
+},
+{
+"category": "tool",
+"key": "toolace:417",
+"src": "toolace",
+"repo": "Team-ACE/ToolACE",
+"rev": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+"file": "data.json",
+"row": 417,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant with access to tools. Call a tool when it helps answer the user.",
+"stage2": true,
+"truncated": false,
+"n_prompt": 544,
+"score": [
+693,
+824
+],
+"gen_ranges": [
+[
+544,
+657
+],
+[
+693,
+824
+]
+],
+"n_tokens": 824
+},
+{
+"category": "chat",
+"key": "wildchat:35498",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 35498,
+"lang": "German",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 951,
+"score": [
+951,
+2048
+],
+"gen_ranges": [
+[
+951,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "chat",
+"key": "openhermes:metamath:476345",
+"src": "openhermes:metamath",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 476345,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 94,
+"score": [
+94,
+458
+],
+"gen_ranges": [
+[
+94,
+458
+]
+],
+"n_tokens": 458
+},
+{
+"category": "chat",
+"key": "wildchat:52350",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 52350,
+"lang": "Russian",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 926,
+"score": [
+926,
+2048
+],
+"gen_ranges": [
+[
+926,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "chat",
+"key": "wildchat:24371",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 24371,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 21,
+"score": [
+21,
+1557
+],
+"gen_ranges": [
+[
+21,
+1557
+]
+],
+"n_tokens": 1557
+},
+{
+"category": "chat",
+"key": "wildchat:10536",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 10536,
+"lang": "Vietnamese",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 302,
+"score": [
+302,
+1838
+],
+"gen_ranges": [
+[
+302,
+1838
+]
+],
+"n_tokens": 1838
+},
+{
+"category": "chat",
+"key": "openhermes:none:705919",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 705919,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 130,
+"score": [
+130,
+296
+],
+"gen_ranges": [
+[
+130,
+296
+]
+],
+"n_tokens": 296
+},
+{
+"category": "chat",
+"key": "openhermes:none:859704",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 859704,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 392,
+"score": [
+392,
+880
+],
+"gen_ranges": [
+[
+392,
+880
+]
+],
+"n_tokens": 880
+},
+{
+"category": "chat",
+"key": "openhermes:metamath:470947",
+"src": "openhermes:metamath",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 470947,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 71,
+"score": [
+71,
+580
+],
+"gen_ranges": [
+[
+71,
+580
+]
+],
+"n_tokens": 580
+},
+{
+"category": "chat",
+"key": "wildchat:6754",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 6754,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 205,
+"score": [
+205,
+1741
+],
+"gen_ranges": [
+[
+205,
+1741
+]
+],
+"n_tokens": 1741
+},
+{
+"category": "chat",
+"key": "wildchat:19957",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 19957,
+"lang": "Chinese",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 273,
+"score": [
+273,
+1809
+],
+"gen_ranges": [
+[
+273,
+1809
+]
+],
+"n_tokens": 1809
+},
+{
+"category": "chat",
+"key": "openhermes:EvolInstruct_70k:208339",
+"src": "openhermes:EvolInstruct_70k",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 208339,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 20,
+"score": [
+20,
+1078
+],
+"gen_ranges": [
+[
+20,
+1078
+]
+],
+"n_tokens": 1078
+},
+{
+"category": "chat",
+"key": "openhermes:none:811941",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 811941,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 483,
+"score": [
+483,
+1077
+],
+"gen_ranges": [
+[
+483,
+1077
+]
+],
+"n_tokens": 1077
+},
+{
+"category": "chat",
+"key": "wildchat:21359",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 21359,
+"lang": "Portuguese",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 83,
+"score": [
+83,
+1619
+],
+"gen_ranges": [
+[
+83,
+1619
+]
+],
+"n_tokens": 1619
+},
+{
+"category": "chat",
+"key": "openhermes:airoboros2.2:33938",
+"src": "openhermes:airoboros2.2",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 33938,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 80,
+"score": [
+80,
+445
+],
+"gen_ranges": [
+[
+80,
+445
+]
+],
+"n_tokens": 445
+},
+{
+"category": "chat",
+"key": "wildchat:42670",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 42670,
+"lang": "English",
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 28,
+"score": [
+28,
+220
+],
+"gen_ranges": [
+[
+28,
+220
+]
+],
+"n_tokens": 220
+},
+{
+"category": "chat",
+"key": "openhermes:glaive-code-assist:275068",
+"src": "openhermes:glaive-code-assist",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 275068,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 25,
+"score": [
+25,
+1408
+],
+"gen_ranges": [
+[
+25,
+1408
+]
+],
+"n_tokens": 1408
+},
+{
+"category": "chat",
+"key": "wildchat:26849",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 26849,
+"lang": "Portuguese",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 40,
+"score": [
+40,
+1017
+],
+"gen_ranges": [
+[
+40,
+1017
+]
+],
+"n_tokens": 1017
+},
+{
+"category": "chat",
+"key": "openhermes:none:952459",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 952459,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 102,
+"score": [
+102,
+1638
+],
+"gen_ranges": [
+[
+102,
+1638
+]
+],
+"n_tokens": 1638
+},
+{
+"category": "chat",
+"key": "wildchat:33413",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 33413,
+"lang": "English",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 227,
+"score": [
+227,
+1763
+],
+"gen_ranges": [
+[
+227,
+1763
+]
+],
+"n_tokens": 1763
+},
+{
+"category": "chat",
+"key": "wildchat:37566",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 37566,
+"lang": "Chinese",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 23,
+"score": [
+23,
+1559
+],
+"gen_ranges": [
+[
+23,
+1559
+]
+],
+"n_tokens": 1559
+},
+{
+"category": "chat",
+"key": "wildchat:17955",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 17955,
+"lang": "Italian",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 49,
+"score": [
+49,
+1585
+],
+"gen_ranges": [
+[
+49,
+1585
+]
+],
+"n_tokens": 1585
+},
+{
+"category": "chat",
+"key": "openhermes:airoboros2.2:17978",
+"src": "openhermes:airoboros2.2",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 17978,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 16,
+"score": [
+16,
+489
+],
+"gen_ranges": [
+[
+16,
+489
+]
+],
+"n_tokens": 489
+},
+{
+"category": "chat",
+"key": "openhermes:glaive-code-assist:238094",
+"src": "openhermes:glaive-code-assist",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 238094,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 181,
+"score": [
+181,
+1717
+],
+"gen_ranges": [
+[
+181,
+1717
+]
+],
+"n_tokens": 1717
+},
+{
+"category": "chat",
+"key": "openhermes:platypus:924057",
+"src": "openhermes:platypus",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 924057,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 42,
+"score": [
+42,
+482
+],
+"gen_ranges": [
+[
+42,
+482
+]
+],
+"n_tokens": 482
+},
+{
+"category": "chat",
+"key": "wildchat:52580",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 52580,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 186,
+"score": [
+186,
+1722
+],
+"gen_ranges": [
+[
+186,
+1722
+]
+],
+"n_tokens": 1722
+},
+{
+"category": "chat",
+"key": "wildchat:45826",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 45826,
+"lang": "Portuguese",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 89,
+"score": [
+89,
+1187
+],
+"gen_ranges": [
+[
+89,
+1187
+]
+],
+"n_tokens": 1187
+},
+{
+"category": "chat",
+"key": "wildchat:18936",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 18936,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 37,
+"score": [
+37,
+610
+],
+"gen_ranges": [
+[
+37,
+610
+]
+],
+"n_tokens": 610
+},
+{
+"category": "chat",
+"key": "openhermes:none:520620",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 520620,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 538,
+"score": [
+538,
+566
+],
+"gen_ranges": [
+[
+538,
+566
+]
+],
+"n_tokens": 566
+},
+{
+"category": "chat",
+"key": "wildchat:48988",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 48988,
+"lang": "English",
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 753,
+"score": [
+753,
+2048
+],
+"gen_ranges": [
+[
+753,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "chat",
+"key": "wildchat:47869",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 47869,
+"lang": "French",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 52,
+"score": [
+52,
+555
+],
+"gen_ranges": [
+[
+52,
+555
+]
+],
+"n_tokens": 555
+},
+{
+"category": "chat",
+"key": "wildchat:18701",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 18701,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 30,
+"score": [
+30,
+1566
+],
+"gen_ranges": [
+[
+30,
+1566
+]
+],
+"n_tokens": 1566
+},
+{
+"category": "chat",
+"key": "openhermes:none:608020",
+"src": "openhermes:none",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 608020,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 80,
+"score": [
+80,
+676
+],
+"gen_ranges": [
+[
+80,
+676
+]
+],
+"n_tokens": 676
+},
+{
+"category": "chat",
+"key": "wildchat:38589",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 38589,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 17,
+"score": [
+17,
+1553
+],
+"gen_ranges": [
+[
+17,
+1553
+]
+],
+"n_tokens": 1553
+},
+{
+"category": "chat",
+"key": "openhermes:CamelAI:73073",
+"src": "openhermes:CamelAI",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 73073,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 38,
+"score": [
+38,
+1574
+],
+"gen_ranges": [
+[
+38,
+1574
+]
+],
+"n_tokens": 1574
+},
+{
+"category": "chat",
+"key": "wildchat:8861",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 8861,
+"lang": "English",
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 107,
+"score": [
+107,
+483
+],
+"gen_ranges": [
+[
+107,
+483
+]
+],
+"n_tokens": 483
+},
+{
+"category": "chat",
+"key": "wildchat:33996",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 33996,
+"lang": "Russian",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 60,
+"score": [
+60,
+1596
+],
+"gen_ranges": [
+[
+60,
+1596
+]
+],
+"n_tokens": 1596
+},
+{
+"category": "chat",
+"key": "wildchat:44091",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 44091,
+"lang": "English",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 320,
+"score": [
+320,
+1856
+],
+"gen_ranges": [
+[
+320,
+1856
+]
+],
+"n_tokens": 1856
+},
+{
+"category": "chat",
+"key": "openhermes:metamath:493115",
+"src": "openhermes:metamath",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 493115,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 62,
+"score": [
+62,
+441
+],
+"gen_ranges": [
+[
+62,
+441
+]
+],
+"n_tokens": 441
+},
+{
+"category": "chat",
+"key": "wildchat:55125",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 55125,
+"lang": "Russian",
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 199,
+"score": [
+199,
+1735
+],
+"gen_ranges": [
+[
+199,
+1735
+]
+],
+"n_tokens": 1735
+},
+{
+"category": "chat",
+"key": "openhermes:EvolInstruct_70k:207877",
+"src": "openhermes:EvolInstruct_70k",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 207877,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 116,
+"score": [
+116,
+1652
+],
+"gen_ranges": [
+[
+116,
+1652
+]
+],
+"n_tokens": 1652
+},
+{
+"category": "chat",
+"key": "wildchat:12738",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 12738,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 878,
+"score": [
+878,
+2048
+],
+"gen_ranges": [
+[
+878,
+2048
+]
+],
+"n_tokens": 2048
+},
+{
+"category": "chat",
+"key": "wildchat:4590",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 4590,
+"lang": "English",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 169,
+"score": [
+169,
+1705
+],
+"gen_ranges": [
+[
+169,
+1705
+]
+],
+"n_tokens": 1705
+},
+{
+"category": "chat",
+"key": "openhermes:metamath:475880",
+"src": "openhermes:metamath",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 475880,
+"lang": null,
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 64,
+"score": [
+64,
+487
+],
+"gen_ranges": [
+[
+64,
+487
+]
+],
+"n_tokens": 487
+},
+{
+"category": "chat",
+"key": "openhermes:CamelAI:36454",
+"src": "openhermes:CamelAI",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 36454,
+"lang": null,
+"think": false,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": false,
+"n_prompt": 62,
+"score": [
+62,
+281
+],
+"gen_ranges": [
+[
+62,
+281
+]
+],
+"n_tokens": 281
+},
+{
+"category": "chat",
+"key": "wildchat:58846",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 58846,
+"lang": "English",
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 68,
+"score": [
+68,
+1604
+],
+"gen_ranges": [
+[
+68,
+1604
+]
+],
+"n_tokens": 1604
+},
+{
+"category": "chat",
+"key": "wildchat:12229",
+"src": "wildchat",
+"repo": "allenai/WildChat-1M",
+"rev": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+"file": "data/train-00000-of-00014.parquet",
+"row": 12229,
+"lang": "Chinese",
+"think": true,
+"system": "You are a helpful assistant trained by Liquid AI.",
+"stage2": false,
+"truncated": true,
+"n_prompt": 138,
+"score": [
+138,
+1674
+],
+"gen_ranges": [
+[
+138,
+1674
+]
+],
+"n_tokens": 1674
+},
+{
+"category": "chat",
+"key": "openhermes:CamelAI:97651",
+"src": "openhermes:CamelAI",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 97651,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 100,
+"score": [
+100,
+1636
+],
+"gen_ranges": [
+[
+100,
+1636
+]
+],
+"n_tokens": 1636
+},
+{
+"category": "chat",
+"key": "openhermes:glaive-code-assist:377405",
+"src": "openhermes:glaive-code-assist",
+"repo": "teknium/OpenHermes-2.5",
+"rev": "b82037821055c377bed0d495e72e46de3bc72e84",
+"file": "openhermes2_5.json",
+"row": 377405,
+"lang": null,
+"think": false,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 137,
+"score": [
+137,
+846
+],
+"gen_ranges": [
+[
+137,
+846
+]
+],
+"n_tokens": 846
+},
+{
+"category": "reason",
+"key": "gsm8k:3039",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 3039,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 81,
+"score": [
+81,
+1617
+],
+"gen_ranges": [
+[
+81,
+1617
+]
+],
+"n_tokens": 1617
+},
+{
+"category": "reason",
+"key": "numina:cn_k12:148097",
+"src": "numina:cn_k12",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 148097,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 91,
+"score": [
+91,
+1627
+],
+"gen_ranges": [
+[
+91,
+1627
+]
+],
+"n_tokens": 1627
+},
+{
+"category": "reason",
+"key": "numina:cn_k12:146876",
+"src": "numina:cn_k12",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 146876,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 43,
+"score": [
+43,
+691
+],
+"gen_ranges": [
+[
+43,
+691
+]
+],
+"n_tokens": 691
+},
+{
+"category": "reason",
+"key": "numina:synthetic_math:59678",
+"src": "numina:synthetic_math",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 59678,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 27,
+"score": [
+27,
+719
+],
+"gen_ranges": [
+[
+27,
+719
+]
+],
+"n_tokens": 719
+},
+{
+"category": "reason",
+"key": "numina:cn_k12:28194",
+"src": "numina:cn_k12",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 28194,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 54,
+"score": [
+54,
+353
+],
+"gen_ranges": [
+[
+54,
+353
+]
+],
+"n_tokens": 353
+},
+{
+"category": "reason",
+"key": "gsm8k:3025",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 3025,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 64,
+"score": [
+64,
+312
+],
+"gen_ranges": [
+[
+64,
+312
+]
+],
+"n_tokens": 312
+},
+{
+"category": "reason",
+"key": "numina:synthetic_amc:108738",
+"src": "numina:synthetic_amc",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 108738,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 189,
+"score": [
+189,
+1725
+],
+"gen_ranges": [
+[
+189,
+1725
+]
+],
+"n_tokens": 1725
+},
+{
+"category": "reason",
+"key": "gsm8k:1080",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 1080,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 35,
+"score": [
+35,
+441
+],
+"gen_ranges": [
+[
+35,
+441
+]
+],
+"n_tokens": 441
+},
+{
+"category": "reason",
+"key": "gsm8k:5823",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 5823,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 52,
+"score": [
+52,
+541
+],
+"gen_ranges": [
+[
+52,
+541
+]
+],
+"n_tokens": 541
+},
+{
+"category": "reason",
+"key": "numina:synthetic_math:44752",
+"src": "numina:synthetic_math",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 44752,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 33,
+"score": [
+33,
+355
+],
+"gen_ranges": [
+[
+33,
+355
+]
+],
+"n_tokens": 355
+},
+{
+"category": "reason",
+"key": "numina:orca_math:77976",
+"src": "numina:orca_math",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 77976,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 45,
+"score": [
+45,
+1581
+],
+"gen_ranges": [
+[
+45,
+1581
+]
+],
+"n_tokens": 1581
+},
+{
+"category": "reason",
+"key": "numina:orca_math:10766",
+"src": "numina:orca_math",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 10766,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 65,
+"score": [
+65,
+1113
+],
+"gen_ranges": [
+[
+65,
+1113
+]
+],
+"n_tokens": 1113
+},
+{
+"category": "reason",
+"key": "gsm8k:3896",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 3896,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 68,
+"score": [
+68,
+1363
+],
+"gen_ranges": [
+[
+68,
+1363
+]
+],
+"n_tokens": 1363
+},
+{
+"category": "reason",
+"key": "numina:cn_k12:110584",
+"src": "numina:cn_k12",
+"repo": "AI-MO/NuminaMath-CoT",
+"rev": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+"file": "data/train-00000-of-00005.parquet",
+"row": 110584,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 47,
+"score": [
+47,
+1583
+],
+"gen_ranges": [
+[
+47,
+1583
+]
+],
+"n_tokens": 1583
+},
+{
+"category": "reason",
+"key": "gsm8k:4260",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 4260,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 114,
+"score": [
+114,
+750
+],
+"gen_ranges": [
+[
+114,
+750
+]
+],
+"n_tokens": 750
+},
+{
+"category": "reason",
+"key": "gsm8k:1776",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 1776,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": true,
+"n_prompt": 97,
+"score": [
+97,
+1633
+],
+"gen_ranges": [
+[
+97,
+1633
+]
+],
+"n_tokens": 1633
+},
+{
+"category": "reason",
+"key": "gsm8k:6640",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 6640,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 63,
+"score": [
+63,
+637
+],
+"gen_ranges": [
+[
+63,
+637
+]
+],
+"n_tokens": 637
+},
+{
+"category": "reason",
+"key": "gsm8k:178",
+"src": "gsm8k",
+"repo": "openai/gsm8k",
+"rev": "740312add88f781978c0658806c59bc2815b9866",
+"file": "main/train-00000-of-00001.parquet",
+"row": 178,
+"lang": null,
+"think": true,
+"system": null,
+"stage2": false,
+"truncated": false,
+"n_prompt": 97,
+"score": [
+97,
+829
+],
+"gen_ranges": [
+[
+97,
+829
+]
+],
+"n_tokens": 829
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:3614",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 3614,
+"score": [
+32,
+1617
+],
+"gen_ranges": [],
+"n_tokens": 1617
+},
+{
+"category": "raw",
+"key": "fineweb-edu:4245",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 4245,
+"score": [
+32,
+551
+],
+"gen_ranges": [],
+"n_tokens": 551
+},
+{
+"category": "raw",
+"key": "fineweb-edu:900",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 900,
+"score": [
+32,
+671
+],
+"gen_ranges": [],
+"n_tokens": 671
+},
+{
+"category": "raw",
+"key": "fineweb-edu:4654",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 4654,
+"score": [
+32,
+410
+],
+"gen_ranges": [],
+"n_tokens": 410
+},
+{
+"category": "raw",
+"key": "fineweb-edu:2703",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 2703,
+"score": [
+32,
+456
+],
+"gen_ranges": [],
+"n_tokens": 456
+},
+{
+"category": "raw",
+"key": "fineweb-edu:3155",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 3155,
+"score": [
+32,
+534
+],
+"gen_ranges": [],
+"n_tokens": 534
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:4224",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 4224,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "fineweb-edu:4257",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 4257,
+"score": [
+32,
+1787
+],
+"gen_ranges": [],
+"n_tokens": 1787
+},
+{
+"category": "raw",
+"key": "fineweb-edu:2986",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 2986,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "fineweb-edu:4902",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 4902,
+"score": [
+32,
+645
+],
+"gen_ranges": [],
+"n_tokens": 645
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:3426",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 3426,
+"score": [
+32,
+1507
+],
+"gen_ranges": [],
+"n_tokens": 1507
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:1",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 1,
+"score": [
+32,
+1347
+],
+"gen_ranges": [],
+"n_tokens": 1347
+},
+{
+"category": "raw",
+"key": "fineweb-edu:3249",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 3249,
+"score": [
+32,
+568
+],
+"gen_ranges": [],
+"n_tokens": 568
+},
+{
+"category": "raw",
+"key": "fineweb-edu:708",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 708,
+"score": [
+32,
+759
+],
+"gen_ranges": [],
+"n_tokens": 759
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:116",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 116,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "fineweb-edu:3175",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 3175,
+"score": [
+32,
+675
+],
+"gen_ranges": [],
+"n_tokens": 675
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:4303",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 4303,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:530",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 530,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:1430",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 1430,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:3666",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 3666,
+"score": [
+32,
+2048
+],
+"gen_ranges": [],
+"n_tokens": 2048
+},
+{
+"category": "raw",
+"key": "fineweb-edu:3642",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 3642,
+"score": [
+32,
+1881
+],
+"gen_ranges": [],
+"n_tokens": 1881
+},
+{
+"category": "raw",
+"key": "fineweb-edu:5929",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 5929,
+"score": [
+32,
+761
+],
+"gen_ranges": [],
+"n_tokens": 761
+},
+{
+"category": "raw",
+"key": "fineweb-edu:6094",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 6094,
+"score": [
+32,
+333
+],
+"gen_ranges": [],
+"n_tokens": 333
+},
+{
+"category": "raw",
+"key": "fineweb-edu:1224",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 1224,
+"score": [
+32,
+670
+],
+"gen_ranges": [],
+"n_tokens": 670
+},
+{
+"category": "raw",
+"key": "wikitext-103-test:3825",
+"src": "wikitext-103-test",
+"repo": "Salesforce/wikitext",
+"rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+"file": "wikitext-103-raw-v1/test-00000-of-00001.parquet",
+"row": 3825,
+"score": [
+32,
+1229
+],
+"gen_ranges": [],
+"n_tokens": 1229
+},
+{
+"category": "raw",
+"key": "fineweb-edu:7817",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 7817,
+"score": [
+32,
+939
+],
+"gen_ranges": [],
+"n_tokens": 939
+},
+{
+"category": "raw",
+"key": "fineweb-edu:696",
+"src": "fineweb-edu",
+"repo": "HuggingFaceFW/fineweb-edu",
+"rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+"file": "sample/10BT/000_00000.parquet",
+"row": 696,
+"score": [
+32,
+353
+],
+"gen_ranges": [],
+"n_tokens": 353
+}
+]

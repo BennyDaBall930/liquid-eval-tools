@@ -1,0 +1,150 @@
+{
+  "results": {
+    "ifeval": {
+      "name": "ifeval",
+      "alias": "ifeval",
+      "sample_len": 541,
+      "prompt_level_strict_acc,none": 0.944547134935305,
+      "prompt_level_strict_acc_stderr,none": 0.009848655183700419,
+      "inst_level_strict_acc,none": 0.9628297362110312,
+      "inst_level_strict_acc_stderr,none": "N/A",
+      "prompt_level_loose_acc,none": 0.966728280961183,
+      "prompt_level_loose_acc_stderr,none": 0.007717789905173993,
+      "inst_level_loose_acc,none": 0.9784172661870504,
+      "inst_level_loose_acc_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {},
+  "configs": {
+    "ifeval": {
+      "task": "ifeval",
+      "dataset_path": "google/IFEval",
+      "test_split": "train",
+      "doc_to_text": "prompt",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "process_results": "def process_results(doc, results):\n    inp = InputExample(\n        key=doc[\"key\"],\n        instruction_id_list=doc[\"instruction_id_list\"],\n        prompt=doc[\"prompt\"],\n        kwargs=doc[\"kwargs\"],\n    )\n    response = results[0]\n\n    out_strict = test_instruction_following_strict(inp, response)\n    out_loose = test_instruction_following_loose(inp, response)\n\n    return {\n        \"prompt_level_strict_acc\": out_strict.follow_all_instructions,\n        \"inst_level_strict_acc\": out_strict.follow_instruction_list,\n        \"prompt_level_loose_acc\": out_loose.follow_all_instructions,\n        \"inst_level_loose_acc\": out_loose.follow_instruction_list,\n    }\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default",
+        "split": null,
+        "process_docs": null,
+        "fewshot_indices": null,
+        "samples": null,
+        "doc_to_text": "prompt",
+        "doc_to_choice": null,
+        "doc_to_target": 0,
+        "gen_prefix": null,
+        "fewshot_delimiter": "\n\n",
+        "target_delimiter": " "
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "prompt_level_strict_acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "inst_level_strict_acc",
+          "aggregation": "def agg_inst_level_acc(items):\n    flat_items = [item for sublist in items for item in sublist]\n    inst_level_acc = sum(flat_items) / len(flat_items)\n    return inst_level_acc\n",
+          "higher_is_better": true
+        },
+        {
+          "metric": "prompt_level_loose_acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "inst_level_loose_acc",
+          "aggregation": "def agg_inst_level_acc(items):\n    flat_items = [item for sublist in items for item in sublist]\n    inst_level_acc = sum(flat_items) / len(flat_items)\n    return inst_level_acc\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [],
+        "do_sample": false,
+        "temperature": 0.6,
+        "max_gen_toks": 250000,
+        "top_p": 0.95
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 4.0,
+        "model": "lfm3",
+        "base_url": "http://127.0.0.1:8112/v1/chat/completions",
+        "num_concurrent": 48,
+        "max_retries": 5,
+        "tokenized_requests": false,
+        "config_source": "D:\\AI\\tools\\lfm3-eval-venv\\Lib\\site-packages\\lm_eval\\tasks\\ifeval\\ifeval.yaml"
+      }
+    }
+  },
+  "versions": {
+    "ifeval": 4.0
+  },
+  "n-shot": {
+    "ifeval": 0
+  },
+  "higher_is_better": {
+    "ifeval": {
+      "prompt_level_strict_acc": true,
+      "inst_level_strict_acc": true,
+      "prompt_level_loose_acc": true,
+      "inst_level_loose_acc": true
+    }
+  },
+  "n-samples": {
+    "ifeval": {
+      "original": 541,
+      "effective": 541
+    }
+  },
+  "config": {
+    "model": "local-chat-completions",
+    "model_args": {
+      "model": "lfm3",
+      "base_url": "http://127.0.0.1:8112/v1/chat/completions",
+      "num_concurrent": 48,
+      "max_retries": 5,
+      "tokenized_requests": false
+    },
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "max_gen_toks": 250000
+    },
+    "random_seed": 1234,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "7a6cdb8",
+  "date": 1793900095.5108855,
+  "pretty_env_info": "PyTorch version: 2.15.0+cpu\nIs debug build: False\nCUDA used to build PyTorch: Could not collect\nROCm SDK used to build PyTorch: N/A\nHIP used to build PyTorch: N/A\n\nOS: Microsoft Windows 11 Pro (10.0.26200 64-bit)\nGCC version: Could not collect\nClang version: Could not collect\nCMake version: version 4.3.1\nLibc version: N/A\n\nPython version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)] (64-bit runtime)\nPython platform: Windows-11-10.0.26200-SP0\nIs CUDA available: False\nCUDA runtime version: 13.2.51\r\nCUDA_MODULE_LOADING set to: N/A\nGPU models and configuration: GPU 0: NVIDIA GeForce RTX 5090\nNvidia driver version: Could not collect\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: False\nCaching allocator config: N/A\n\nCPU:\nName: AMD Ryzen 9 9950X3D 16-Core Processor          \nManufacturer: AuthenticAMD\nFamily: 107\nArchitecture: 9\nProcessorType: 3\nDeviceID: CPU0\nCurrentClockSpeed: 4300\nMaxClockSpeed: 4300\nL2CacheSize: 16384\nL2CacheSpeed: None\nRevision: 17408\n\nVersions of relevant libraries:\n[pip3] mypy_extensions==1.2.0\n[pip3] numpy==2.5.4\n[pip3] torch==2.15.0\n[conda] Could not collect",
+  "transformers_version": "5.22.1",
+  "lm_eval_version": "0.4.13",
+  "upper_git_hash": "7a6cdb8b8a124dd59722fe85080559fb62498d9e",
+  "task_hashes": {
+    "ifeval": "274e0c94755078dd6bd5aa5b446986d97052419e71b29229daa5dc2885d65a0b"
+  },
+  "model_source": "local-chat-completions",
+  "model_name": "lfm3",
+  "model_name_sanitized": "lfm3",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": true,
+  "chat_template": "",
+  "chat_template_sha": null,
+  "total_evaluation_time_seconds": "249.74687179998728"
+}

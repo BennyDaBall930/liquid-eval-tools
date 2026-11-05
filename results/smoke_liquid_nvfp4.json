@@ -1,0 +1,170 @@
+{
+ "name": "liquid_nvfp4",
+ "url": "http://127.0.0.1:8131",
+ "sampling": {
+  "temperature": 0.1,
+  "top_k": 50,
+  "repetition_penalty": 1.1,
+  "seed": 1234
+ },
+ "time": "2026-11-01 11:12:35",
+ "chat": {
+  "request": {
+   "model": "lfm3",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit."
+    }
+   ],
+   "max_tokens": 4096,
+   "temperature": 0.1,
+   "top_k": 50,
+   "repetition_penalty": 1.1,
+   "seed": 1234
+  },
+  "response": {
+   "id": "chatcmpl-9d7804e4ad05eee0",
+   "object": "chat.completion",
+   "created": 1793549555,
+   "model": "lfm3",
+   "choices": [
+    {
+     "index": 0,
+     "message": {
+      "role": "assistant",
+      "content": "The sky looks blue because molecules in Earth’s atmosphere scatter short‑wavelength blue light from the sun much more than long‑wavelength red light, a process known as Rayleigh scattering. At sea level, pure water reaches its boiling point at 100 °C. This temperature equals 212 °F.",
+      "refusal": null,
+      "annotations": null,
+      "audio": null,
+      "function_call": null,
+      "reasoning": "We need to answer in three sentences total? The user says: \"In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit.\" So we need exactly three sentences. First sentence(s) should explain why the sky is blue. Second sentence gives boiling point in Celsius. Third sentence gives boiling point in Fahrenheit? Or combine? Let's parse: \"In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit.\" That implies we need to cover two tasks within three sentences. Possibly one sentence for explanation, second for Celsius, third for Fahrenheit. But also could be all in three sentences: first sentence explains why sky is blue; second sentence states boiling point in Celsius; third sentence states boiling point in Fahrenheit. That seems straightforward.\n\nLet's craft:\n\nSentence 1: The sky appears blue because molecules in the atmosphere scatter shorter (blue) wavelengths of sunlight more efficiently than longer (red) ones, a phenomenon called Rayleigh scattering.\n\nSentence 2: At sea level, water boils at 100°C.\n\nSentence 3: That corresponds to 212°F.\n\nBut that might not explicitly say \"in both Celsius and Fahrenheit\" but it does give both numbers across sentences. However maybe they want both values in same sentence? Could do: \"Water boils at 100°C or 212°F at sea level.\" That would be one sentence covering both. Then we'd have only two sentences for explanation? Need three sentences total. Let's think: We can make three sentences: Sentence 1: Explanation of sky color. Sentence 2: Boiling point in Celsius. Sentence 3: Boiling point in Fahrenheit. That meets requirement: \"explain why the sky is blue, then give the boiling point ... in both Celsius and Fahrenheit.\" Actually giving them separately still provides both. But better to include both in one sentence? The instruction: \"In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit.\" It doesn't strictly require each piece in separate sentence, just overall three sentences. I'll go with three distinct sentences: first about sky, second about Celsius, third about Fahrenheit. That yields three sentences.\n\nCheck length: Each sentence must be complete and separated by period. Ensure no extra periods inside abbreviations like \"e.g.\" cause issues. Use simple phrasing.\n\nThus final answer:\n\n\"The sky looks blue because molecules in Earth’s atmosphere scatter short‑wavelength blue light from the sun much more than long‑wavelength red light, a process known as Rayleigh scattering. At sea level, pure water reaches its boiling point at 100 °C. This temperature equals 212 °F.\"\n\nThat's three sentences. Count: Sentence 1 ends after \"scattering.\" Sentence 2 ends after \"°C.\" Sentence 3 ends after \"°F.\" Yes.\n\nMake sure there are exactly three sentences. Check punctuation: There's a comma after \"short‑wavelength\"? That's fine. No extra periods. Also note that \"Rayleigh scattering\" includes a hyphen but not a period. Good.\n\nThus output exactly those three sentences."
+     },
+     "logprobs": null,
+     "finish_reason": "stop",
+     "stop_reason": null,
+     "token_ids": null,
+     "routed_experts": null
+    }
+   ],
+   "service_tier": null,
+   "system_fingerprint": "vllm-0.32.0-2a6473eb",
+   "usage": {
+    "prompt_tokens": 37,
+    "total_tokens": 767,
+    "completion_tokens": 730,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": {
+     "reasoning_tokens": 664
+    }
+   },
+   "prompt_logprobs": null,
+   "prompt_token_ids": null,
+   "prompt_text": null,
+   "kv_transfer_params": null,
+   "ec_transfer_params": null,
+   "metrics": null
+  },
+  "latency_s": 2.0446101999996245
+ },
+ "tool_call": {
+  "request": {
+   "model": "lfm3",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What's the weather like in Indianapolis right now? Use fahrenheit."
+    }
+   ],
+   "tools": [
+    {
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "description": "Get the current weather for a city.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "city": {
+         "type": "string",
+         "description": "City name, e.g. Paris"
+        },
+        "unit": {
+         "type": "string",
+         "enum": [
+          "celsius",
+          "fahrenheit"
+         ]
+        }
+       },
+       "required": [
+        "city",
+        "unit"
+       ]
+      }
+     }
+    }
+   ],
+   "tool_choice": "auto",
+   "max_tokens": 4096,
+   "temperature": 0.1,
+   "top_k": 50,
+   "repetition_penalty": 1.1,
+   "seed": 1234
+  },
+  "response": {
+   "id": "chatcmpl-8579af72c534dd3b",
+   "object": "chat.completion",
+   "created": 1793549557,
+   "model": "lfm3",
+   "choices": [
+    {
+     "index": 0,
+     "message": {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "annotations": null,
+      "audio": null,
+      "function_call": null,
+      "tool_calls": [
+       {
+        "id": "chatcmpl-tool-84f26b815eaa596d",
+        "type": "function",
+        "function": {
+         "name": "get_weather",
+         "arguments": "{\"city\": \"Indianapolis\", \"unit\": \"fahrenheit\"}"
+        }
+       }
+      ],
+      "reasoning": "We need to get the weather for Indianapolis using the `get_weather` function. The user specified \"Use fahrenheit\" so we should set the `unit` parameter to `\"fahrenheit\"`. The function requires both `city` and `unit`. So arguments: city=\"Indianapolis\", unit=\"fahrenheit\". Let's call the function."
+     },
+     "logprobs": null,
+     "finish_reason": "tool_calls",
+     "stop_reason": null,
+     "token_ids": null,
+     "routed_experts": null
+    }
+   ],
+   "service_tier": null,
+   "system_fingerprint": "vllm-0.32.0-2a6473eb",
+   "usage": {
+    "prompt_tokens": 115,
+    "total_tokens": 212,
+    "completion_tokens": 97,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": {
+     "reasoning_tokens": 69
+    }
+   },
+   "prompt_logprobs": null,
+   "prompt_token_ids": null,
+   "prompt_text": null,
+   "kv_transfer_params": null,
+   "ec_transfer_params": null,
+   "metrics": null
+  },
+  "latency_s": 0.27853460000005725
+ },
+ "tool_call_ok": true
+}

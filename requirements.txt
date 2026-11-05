@@ -1,0 +1,8 @@
+# Versions the published numbers were produced with (RTX 5090, CUDA 13.0 wheels, Windows 11). Newer versions should work;
+# the BF16 teacher logits and therefore the KLD values can shift at the 1e-4 level with a different torch / cuBLAS build.
+torch==2.14.1
+transformers==5.20.2
+safetensors==0.8.0
+huggingface_hub==2.3.0
+pyarrow==26.0.0
+numpy==2.5.4

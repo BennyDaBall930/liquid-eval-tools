@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.kl.pt
+logs/
+data/work/
+data/smoke.pt

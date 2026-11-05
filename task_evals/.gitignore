@@ -1,0 +1,23 @@
+# only the published files are tracked; everything else here is local working state
+*
+!.gitignore
+!RESULTS.md
+!results.json
+!run_ifeval.sh
+!run_model.sh
+!run_gguf_model.sh
+!summarize.py
+!bs_check.py
+!bs_check.json
+!ifeval/
+ifeval/*
+!ifeval/bf16_liquid/
+!ifeval/bf16_greedy/
+!ifeval/liquid_liquid/
+!ifeval/liquid_greedy/
+!ifeval/bdb_liquid/
+!ifeval/bdb_greedy/
+!ifeval/gguf_liquid_liquid/
+!ifeval/gguf_liquid_greedy/
+!ifeval/gguf_bdb_liquid/
+!ifeval/gguf_bdb_greedy/

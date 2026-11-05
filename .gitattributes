@@ -1,0 +1,4 @@
+# Byte-exact checkouts everywhere: the sha256 values in data/MANIFEST.md are of these exact bytes (eval_text.txt is LF
+# on purpose for llama-perplexity), so no line-ending conversion on any platform.
+* -text
+*.pt binary

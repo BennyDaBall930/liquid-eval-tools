@@ -1,0 +1,42 @@
+{
+ "NousResearch/hermes-function-calling-v1::func-calling.json": {
+  "repo": "NousResearch/hermes-function-calling-v1",
+  "revision": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+  "file": "func-calling.json"
+ },
+ "Team-ACE/ToolACE::data.json": {
+  "repo": "Team-ACE/ToolACE",
+  "revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+  "file": "data.json"
+ },
+ "allenai/WildChat-1M::data/train-00000-of-00014.parquet": {
+  "repo": "allenai/WildChat-1M",
+  "revision": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+  "file": "data/train-00000-of-00014.parquet"
+ },
+ "openai/gsm8k::main/train-00000-of-00001.parquet": {
+  "repo": "openai/gsm8k",
+  "revision": "740312add88f781978c0658806c59bc2815b9866",
+  "file": "main/train-00000-of-00001.parquet"
+ },
+ "AI-MO/NuminaMath-CoT::data/train-00000-of-00005.parquet": {
+  "repo": "AI-MO/NuminaMath-CoT",
+  "revision": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+  "file": "data/train-00000-of-00005.parquet"
+ },
+ "Salesforce/wikitext::wikitext-103-raw-v1/test-00000-of-00001.parquet": {
+  "repo": "Salesforce/wikitext",
+  "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "file": "wikitext-103-raw-v1/test-00000-of-00001.parquet"
+ },
+ "HuggingFaceFW/fineweb-edu::sample/10BT/000_00000.parquet": {
+  "repo": "HuggingFaceFW/fineweb-edu",
+  "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "file": "sample/10BT/000_00000.parquet"
+ },
+ "teknium/OpenHermes-2.5::openhermes2_5.json": {
+  "repo": "teknium/OpenHermes-2.5",
+  "revision": "b82037821055c377bed0d495e72e46de3bc72e84",
+  "file": "openhermes2_5.json"
+ }
+}

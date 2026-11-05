@@ -1,0 +1,170 @@
+{
+ "name": "bdb_vllm",
+ "url": "http://127.0.0.1:8112",
+ "sampling": {
+  "temperature": 0.1,
+  "top_k": 50,
+  "repetition_penalty": 1.1,
+  "seed": 1234
+ },
+ "time": "2026-11-04 13:35:43",
+ "chat": {
+  "request": {
+   "model": "lfm3",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit."
+    }
+   ],
+   "max_tokens": 4096,
+   "temperature": 0.1,
+   "top_k": 50,
+   "repetition_penalty": 1.1,
+   "seed": 1234
+  },
+  "response": {
+   "id": "chatcmpl-b9b3804bb57b5b07",
+   "object": "chat.completion",
+   "created": 1793817343,
+   "model": "lfm3",
+   "choices": [
+    {
+     "index": 0,
+     "message": {
+      "role": "assistant",
+      "content": "The sky appears blue because molecules in Earth\u2019s atmosphere scatter shorter\u2011wavelength sunlight more efficiently than longer wavelengths, so when we look up we see the scattered blue light dominating. At sea level, pure water boils at 100\u202f\u00b0C. This temperature corresponds to 212\u202f\u00b0F, the standard conversion for water\u2019s boiling point under normal atmospheric pressure.",
+      "refusal": null,
+      "annotations": null,
+      "audio": null,
+      "function_call": null,
+      "reasoning": "We need to answer: \"In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit.\" So we need exactly three sentences? The instruction says \"In three sentences, explain why the sky is blue, then give the boiling point of water at sea level in both Celsius and Fahrenheit.\" That implies the entire response should be three sentences. First sentence(s) for explanation of sky's color, second sentence maybe for boiling point? But we need to convey both Celsius and Fahrenheit in one or two sentences? Let's parse.\n\nWe can do:\n\nSentence 1: Explain why the sky is blue (Rayleigh scattering). Sentence 2: State that at sea level, water boils at 100\u00b0C (or 212\u00b0F). Actually we need both units. Could combine into one sentence: \"The boiling point of water at sea level is 100 degrees Celsius, which equals 212 degrees Fahrenheit.\" That would be a single sentence containing both values. Then we have only two sentences total if we also include an introductory phrase about sky? Wait we need three sentences total. So perhaps break into three separate sentences: first explains sky, second gives boiling point in Celsius, third gives boiling point in Fahrenheit? Or combine them differently.\n\nLet's craft:\n\nSentence 1: \"The sky appears blue because molecules in the atmosphere scatter shorter\u2011wavelength sunlight more efficiently than longer wavelengths, making the scattered light predominantly blue when viewed from space.\"\n\nSentence 2: \"At sea level, pure water reaches its boiling point at 100\u202f\u00b0C.\"\n\nSentence 3: \"This temperature corresponds to 212\u202f\u00b0F, the standard conversion for water\u2019s boiling point under normal atmospheric pressure.\"\n\nThat is three sentences. Yes. Check each: Sentence 1 ends with period. Sentence 2 ends with period. Sentence 3 ends with period. Good.\n\nThus final answer: three sentences as above. Ensure no extra sentences. Also avoid using bullet points or lists; just plain text.\n\nProceed."
+     },
+     "logprobs": null,
+     "finish_reason": "stop",
+     "stop_reason": null,
+     "token_ids": null,
+     "routed_experts": null
+    }
+   ],
+   "service_tier": null,
+   "system_fingerprint": "vllm-0.32.0-c446a973",
+   "usage": {
+    "prompt_tokens": 37,
+    "total_tokens": 525,
+    "completion_tokens": 488,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": {
+     "reasoning_tokens": 413
+    }
+   },
+   "prompt_logprobs": null,
+   "prompt_token_ids": null,
+   "prompt_text": null,
+   "kv_transfer_params": null,
+   "ec_transfer_params": null,
+   "metrics": null
+  },
+  "latency_s": 2.2822081000194885
+ },
+ "tool_call": {
+  "request": {
+   "model": "lfm3",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What's the weather like in Indianapolis right now? Use fahrenheit."
+    }
+   ],
+   "tools": [
+    {
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "description": "Get the current weather for a city.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "city": {
+         "type": "string",
+         "description": "City name, e.g. Paris"
+        },
+        "unit": {
+         "type": "string",
+         "enum": [
+          "celsius",
+          "fahrenheit"
+         ]
+        }
+       },
+       "required": [
+        "city",
+        "unit"
+       ]
+      }
+     }
+    }
+   ],
+   "tool_choice": "auto",
+   "max_tokens": 4096,
+   "temperature": 0.1,
+   "top_k": 50,
+   "repetition_penalty": 1.1,
+   "seed": 1234
+  },
+  "response": {
+   "id": "chatcmpl-b1cad9741fd682fc",
+   "object": "chat.completion",
+   "created": 1793817346,
+   "model": "lfm3",
+   "choices": [
+    {
+     "index": 0,
+     "message": {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "annotations": null,
+      "audio": null,
+      "function_call": null,
+      "tool_calls": [
+       {
+        "id": "chatcmpl-tool-aceaa17460dded72",
+        "type": "function",
+        "function": {
+         "name": "get_weather",
+         "arguments": "{\"city\": \"Indianapolis\", \"unit\": \"fahrenheit\"}"
+        }
+       }
+      ],
+      "reasoning": "We need to get the current weather for Indianapolis using Fahrenheit. The function `get_weather` requires parameters `city` and `unit`. So I'll set city to \"Indianapolis\" and unit to \"fahrenheit\". Let's call the function."
+     },
+     "logprobs": null,
+     "finish_reason": "tool_calls",
+     "stop_reason": null,
+     "token_ids": null,
+     "routed_experts": null
+    }
+   ],
+   "service_tier": null,
+   "system_fingerprint": "vllm-0.32.0-c446a973",
+   "usage": {
+    "prompt_tokens": 115,
+    "total_tokens": 194,
+    "completion_tokens": 79,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": {
+     "reasoning_tokens": 51
+    }
+   },
+   "prompt_logprobs": null,
+   "prompt_token_ids": null,
+   "prompt_text": null,
+   "kv_transfer_params": null,
+   "ec_transfer_params": null,
+   "metrics": null
+  },
+  "latency_s": 0.3595152000198141
+ },
+ "tool_call_ok": true
+}
