@@ -17,6 +17,8 @@ ifeval/*
 !ifeval/liquid_greedy/
 !ifeval/bdb_liquid/
 !ifeval/bdb_greedy/
+!ifeval/bdb_2026-11-11_liquid/
+!ifeval/bdb_2026-11-11_greedy/
 !ifeval/gguf_liquid_liquid/
 !ifeval/gguf_liquid_greedy/
 !ifeval/gguf_bdb_liquid/

@@ -161,18 +161,21 @@ Checkpoints, pinned:
 | LiquidAI/LFM3-1.7B BF16 (gold) | `ac2586a3` (current `0dc4268b`, weights unchanged) | `135922ca...` |
 | LiquidAI/LFM3-1.7B-NVFP4 (RTN, static scales) | `bc0c77de` (weights unchanged since 2026-10-27) | `386de2dd...` |
 | BennyDaBall/LFM3-1.7B-NVFP4, first build (2026-11-01, `sr_hq` below) | `9a14adcb` | superseded, fetch by revision |
-| BennyDaBall/LFM3-1.7B-NVFP4, current (2026-11-04) | `32b8d12b` | `af9c824e...` |
-| BennyDaBall/LFM3-1.7B-NVFP4-GGUF, current (2026-11-04) | `dbf6d349` | `df905d8a...` |
+| BennyDaBall/LFM3-1.7B-NVFP4, 2026-11-04 weights | `32b8d12b` | `af9c824e...` |
+| BennyDaBall/LFM3-1.7B-NVFP4-GGUF, 2026-11-04 weights | `dbf6d349` | `df905d8a...` |
+| BennyDaBall/LFM3-1.7B-NVFP4, current (2026-11-11) | `91f19f23` | `d9f34623...` |
+| BennyDaBall/LFM3-1.7B-NVFP4-GGUF, current (2026-11-11) | `a93ae060` | `53b47828...` |
 | LiquidAI/LFM3-1.7B-GGUF `LFM3-1.7B-NVFP4.gguf` (2026-11-03) | `cd0c74c5` | `462c2379...` |
 
-W4A4 teacher KLD, 124,790 scored tokens (`results/kld_w4a4.json` for the 11-01 rows; the current-weights row is the
-number on the Hub card, same harness):
+W4A4 teacher KLD, 124,790 scored tokens (`results/kld_w4a4.json` for the 11-01 rows, `results/kld_w4a4_2026-11-11.json` for the
+11-04 and 11-11 rows, same harness):
 
 | variant | mean | median | p99 | top-1 agree | tool | chat | reason | raw |
 |---|---|---|---|---|---|---|---|---|
 | Liquid NVFP4 | 0.06283 | 0.01872 | 0.5839 | 90.34% | 0.03525 | 0.07069 | 0.03784 | 0.08700 |
 | my first build `sr_hq` (11-01) | 0.04612 | 0.01331 | 0.4410 | 91.63% | 0.02326 | 0.05228 | 0.02618 | 0.06631 |
-| my current Hub weights (11-04) | 0.04511 | 0.01305 | 0.4256 | 91.83% | 0.02313 | 0.05041 | 0.02543 | 0.06581 |
+| my 11-04 weights | 0.04511 | 0.01305 | 0.4256 | 91.83% | 0.02313 | 0.05041 | 0.02543 | 0.06581 |
+| my current Hub weights (11-11) | 0.04327 | 0.01293 | 0.4035 | 91.96% | 0.02196 | 0.04869 | 0.02447 | 0.06272 |
 
 W4A16 (weights only) teacher KLD (`results/kld_w4a16.json`):
 
@@ -180,7 +183,12 @@ W4A16 (weights only) teacher KLD (`results/kld_w4a16.json`):
 |---|---|---|---|---|---|---|
 | Liquid NVFP4 | 0.03317 | 92.93% | 0.01842 | 0.03763 | 0.02075 | 0.04517 |
 | `sr_hq` (11-01) | 0.01781 | 94.80% | 0.00774 | 0.02078 | 0.00964 | 0.02598 |
-| my current Hub weights (11-04) | 0.01721 | 94.96% | 0.00727 | 0.01995 | 0.00927 | 0.02550 |
+| my 11-04 weights | 0.01721 | 94.96% | 0.00727 | 0.01995 | 0.00927 | 0.02550 |
+| my current Hub weights (11-11) | 0.01759 | 94.97% | 0.00849 | 0.02040 | 0.00960 | 0.02509 |
+
+The 11-11 weights are tuned with the 4-bit activations in the loop: W4A4 improves (paired bootstrap over the eval sequences,
+95% CI of the change -0.0027 to -0.0010, `results/paired_boot_w4a4_2026-11-11.json`) while the weights-only view gives a
+little back. Everything for that update is collected in [results/update_2026-11-11.md](results/update_2026-11-11.md).
 
 Greedy continuation agreement, 256 tokens, mean (median) identical tokens before first divergence from BF16
 (`results/greedy_agree.json`, measured 2026-11-01 against my first build, not the current weights):
@@ -197,7 +205,8 @@ more than "both diverge from BF16 within a few dozen greedy tokens, mine a littl
 file produced a full 256-token match.
 
 GGUF (llama.cpp b12110, stock, W4A8 for both unless noted; `results/gguf_kld.md`): Liquid's NVFP4 GGUF 0.1427 as shipped
-(untagged, W4A4 prompt path) / 0.0901 at W4A8; mine 0.0428 (tag pins W4A8); official Q8_0 0.0028, Q4_K_M 0.0969.
+(untagged, W4A4 prompt path) / 0.0901 at W4A8; mine 0.0428 (tag pins W4A8); official Q8_0 0.0028, Q4_K_M 0.0969. The 2026-11-11 GGUF weights measure 0.0398 against 0.0428 for
+the 11-04 file re-measured in the same sitting (`results/gguf_kld_2026-11-11.jsonl`).
 
 ## Reproducing
 
@@ -250,6 +259,9 @@ lm-evaluation-harness 0.4.13, task `ifeval` (541 prompts), chat template applied
 stock llama.cpp b12110 (Liquid's file untagged, so W4A4 prompt processing; mine tagged W4A8). Full tables, the greedy
 protocol, paired per-prompt tests and run notes: [task_evals/RESULTS.md](task_evals/RESULTS.md); every prompt and
 response: `task_evals/ifeval/`.
+
+2026-11-11 weights, vLLM, same protocol: 95.01 ± 0.94 prompt strict at temperature 0.6 and 94.27 ± 1.00 greedy (1 unanswered
+prompt). Paired against the 11-04 rows below: p = 0.69 and 1.00, still a tie. Outputs: `task_evals/ifeval/bdb_2026-11-11_*`.
 
 | temperature 0.6, top_p 0.95 (Liquid's card protocol) | prompt strict | inst strict | prompt loose | inst loose |
 |---|---|---|---|---|
